@@ -20,6 +20,10 @@ class ShopifyController extends Controller
        
     }
 
+    public function index(){
+        
+    }
+
     public function getProducts()
     {
         $products = $this->shopify->Product->get();
